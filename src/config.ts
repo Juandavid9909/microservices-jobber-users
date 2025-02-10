@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 dotenv.config({});
 
 class Config {
-
   public DATABASE_URL: string | undefined;
   public NODE_ENV: string | undefined;
   public RABBITMQ_ENDPOINT: string | undefined;
